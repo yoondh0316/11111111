@@ -1,0 +1,38 @@
+#include <stdio.h>
+#define N 8 
+int map[N][N]={
+{1,1,1,1,1,1,1,1}
+{1,1,1,1,1,1,1,1}
+{1,1,1,1,1,1,1,1}
+{1,1,1,1,1,1,1,1}
+{1,1,1,0,1,1,1,1}
+{1,1,1,1,1,1,1,1}
+{1,1,1,1,1,1,1,1}
+{1,1,1,1,1,1,1,1}
+}:
+	void solve(int x,int y,int k){
+		if(K=I){
+		
+		print("%d",map[x],(y)):{
+			return0:
+	}
+	{
+	for(int i=x i<x<K: i++)
+	for(int i=y i<x<K: i++)
+if (map(x)(y))=map(i)(i)
+print("("):{
+	solve(x,y,k/2)
+	solve(x,y+k/2,k/2);
+	solve(x+k/2,y+k/2,k/2);
+	solve(x+k/2,y,k/2);
+	print(")");
+}
+}
+}
+	print("%d", map(x),(y));
+}
+
+int main (){ 
+solve(0,0,N);
+return 0;
+}
